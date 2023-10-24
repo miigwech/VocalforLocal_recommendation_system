@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #D7385E;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #132743;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body style="background-color:#132743">
+
+<div class="about-section">
+  <h1>About Vocal For Local</h1>
+  <p>This project aims to develop a recommendation system for an ecommerce website using machine learning techniques. The system will analyze user data and behavior to generate personalized recommendations for products. The proposed solution will use collaborative filtering and content-based filtering approaches to improve recommendation accuracy.</p>
+  <p>The methodology includes data collection, preprocessing, feature extraction, model training, and evaluation. The system will be validated and verified using various metrics and user studies. The results show that the recommendation system can improve user engagement and sales conversion. The conclusion highlights the benefits and limitations of the system and suggests future work for enhancing its performance. The project demonstrates the feasibility and effectiveness of using machine learning for recommendation systems in ecommerce applications.</p>
+</div>
+
+<h2 style="color:white" , "text-align:center">Contributors</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <!--<img src="{{url_for('static',filename='aditya.jpg')}}" alt="" style="width:100%">-->
+      <div class="container">
+       
+        <p>ADITYA SAWANT</p>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <!--<img src="{{url_for('static',filename='sarvesh.jpg')}}" alt="" style="width:100%">-->
+      <div class="container">
+        
+        <p>Chaitanya Revandkar</p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <!--<img src="{{url_for('static',filename='harsh.jpg')}}" alt="" style="width:100%">-->
+      <div class="container">
+       
+        <p>Vinayak Revdekar</p>
+        
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <!--<img src="{{url_for('static',filename='harsh.jpg')}}" alt="" style="width:100%">-->
+      <div class="container">
+       
+        <p>Prajyot Savalkar</p>
+        
+    </div>
+  </div>
+
+</div>
+
+<div>
+    
+</body>
+</html>
